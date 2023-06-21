@@ -4,7 +4,7 @@ This is a Shopping List application built using React, TypeScript and Redux. The
 
 ## Live demo
 
-ou can view a live demo of the project here: https://mariovelyov.github.io/shopping-list/
+You can view a live demo of the project here: https://mariovelyov.github.io/shopping-list/
 
 ## Features
 
