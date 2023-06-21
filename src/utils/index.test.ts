@@ -25,8 +25,8 @@ describe("Utils", () => {
             ["foo", "Foo"],
             ["FOO", "Foo"],
             ["fOO", "Foo"],
-          ])('checks that with input (%s) the output is (%s)', (a, expected) => {
-            expect(capitalizeFirstLetter(a)).toBe(expected);
+          ])('checks that with input (%s) the output is (%s)', (input, expectedResult) => {
+            expect(capitalizeFirstLetter(input)).toBe(expectedResult);
           });
       });
 })
