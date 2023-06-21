@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-right: 32px;
+}
+
+.h1 {
+    font-size: 56px;
+}
