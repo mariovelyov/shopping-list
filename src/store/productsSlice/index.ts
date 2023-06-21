@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 // Models
 import { AddProductPayload, ListItem, RemoveProductPayload } from "../../models";
 
-import { initializeItems } from "../../utils";
+import { capitalizeFirstLetter, initializeItems } from "../../utils";
 
 // generate 5-15 random products
 const min = 5;
@@ -17,7 +17,11 @@ const productsSlice = createSlice({
     reducers: {
         addProduct: (state, action: PayloadAction<AddProductPayload>): void => {
             const { name, amount } = action.payload;
-            state.push({ id: Math.random().toString(), name, amount });
+            state.push({ 
+                id: Math.random().toString(), 
+                name: capitalizeFirstLetter(name), 
+                amount 
+            });
         },
         updateProduct: (state, action: PayloadAction<ListItem>) => {
             const { id, name, amount } = action.payload;
