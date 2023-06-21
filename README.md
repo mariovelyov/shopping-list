@@ -1,12 +1,12 @@
 ## Shopping List App
 
-This is a Shopping List web application built using React, TypeScript, Redux and Github Pages(gh-pages library). The app allows you to add products to a list, also update and remove them.
+This is a Shopping List web application built using React, TypeScript, Redux and GitHub Pages(gh-pages library). The app allows you to add products to a list, also update and remove them.
 
 ## Live demo
 
 You can view a live demo of the project here: https://mariovelyov.github.io/shopping-list/
 
-Github Pages is hosting the app and it is deployed directly from the github repository thanks to gh-pages library.
+GitHub Pages is hosting the app and it is deployed directly from the GitHub repository thanks to gh-pages library.
 
 ## Features
 
@@ -17,6 +17,16 @@ Add products to the list with the desired amount
 Update the product name and/or amount in the list
 
 Remove products from the list
+
+# How to build and deploy the app to GitHub Pages
+
+Step 1 - Open terminal window and navigate to the root of the project
+
+Step 2 - yarn build
+
+Step 3 - yarn deploy
+
+Step 4 - Check in the repository - Actions page if build and deploy completed successfully
 
 # Getting Started with Create React App
 
