@@ -28,6 +28,28 @@ Step 3 - yarn deploy
 
 Step 4 - Check in the repository - Actions page if build and deploy completed successfully
 
+# Dependencies
+
+## React
+
+React is a JavaScript library for building user interfaces. It is the core library used in this web application for structuring and rendering the UI.
+
+## TypeScript
+
+TypeScript is a superset of JavaScript that adds static types to the language. In this web application, TypeScript is used to ensure type safety and making the code more robust.
+
+## Redux
+
+Redux is a state management library that provides a centralized store for our application's state. It makes the state management more predictable. In this project, Redux is used to manage the list of products.
+
+## Jest
+
+Jest is a framework that allows us to write and execute tests for our code, while Testing Library is a set of tools that helps us test components in React. In this project, both technoligies are used to write and run tests.
+
+## GitHub Pages
+
+GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website. In this project, the technology is used in order to deploy the application and provide a live demo.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
