@@ -1,3 +1,21 @@
+## Shopping List App
+
+This is a Shopping List application built using React, TypeScript and Redux. The app allows you to add products to a list, also update and remove them.
+
+## Live demo
+
+ou can view a live demo of the project here: https://mariovelyov.github.io/shopping-list/
+
+## Features
+
+Automatically generate a random list of products (5-15 elements) on initialization
+
+Add products to the list with the desired amount
+
+Update the product name and amount in the list
+
+Remove products from the list
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
