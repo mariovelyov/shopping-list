@@ -52,7 +52,7 @@ function ListItem({ item }: { item: ListItemModel }) {
   }
 
   return (
-    <>
+    <li>
       <Form item={item} actionHandler={onEditHandler} error={error}>
         <>
           <button type="submit">Save</button>
@@ -62,7 +62,7 @@ function ListItem({ item }: { item: ListItemModel }) {
         </>
       </Form>
       {successMessage && <p className={classes.success}>{successMessage}</p>}
-    </>
+    </li>
   );
 }
 

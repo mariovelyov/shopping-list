@@ -20,11 +20,11 @@ function ListItems() {
   }
 
   return (
-    <section className={classes.shopping_list}>
+    <ul className={classes.shopping_list}>
       {items.map((item) => (
         <ListItem key={item.id} item={item} />
       ))}
-    </section>
+    </ul>
   );
 }
 

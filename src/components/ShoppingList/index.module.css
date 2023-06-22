@@ -97,3 +97,8 @@ button {
     padding: 8px;
     cursor: pointer;
 }
+
+ul, li {
+    list-style: none;
+    padding-left: 0;
+}
